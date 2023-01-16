@@ -16,7 +16,7 @@ docker build -t <imgname> .
 To run:
 
 ```text
-docker run -d -p 5000:5000 -t <imgname>
+docker run -d -p 5000:5000 <imgname>
 ```
 
 Then open browser [http://localhost:5000](http://localhost:5000)
